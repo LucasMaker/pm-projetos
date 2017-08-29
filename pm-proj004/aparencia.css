@@ -1,0 +1,49 @@
+body{
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+li{
+text-transform: uppercase;
+    background-color: #27ae60;
+    width: 100%;
+    margin: 0 0 4px 0;
+    padding: 60px 0 60px 0;
+    background-image: url(certo.png);
+    background-repeat: no-repeat;
+    background-position: 30px;
+}
+
+a{
+ text-decoration: none;
+color: white;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    padding-left: 90px;
+}
+
+
+
+.p5{
+    background-color: #4a4a4a;
+    background-image: url(caixa.png);
+    background-position: 30px;
+}
+
+.p5:hover{
+    background-color: #6e6e6e;
+}
+
+.p1:hover{
+    background-color: #52be7f;
+}
