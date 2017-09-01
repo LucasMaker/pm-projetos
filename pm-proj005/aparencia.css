@@ -42,7 +42,7 @@ table{
 
 
 td{
-
+    width: 1%;
     padding-bottom: 16px;
     padding-top: 16px;
     border-bottom: solid 1px #e1e1e1; 
@@ -59,8 +59,8 @@ tr:hover {
 }
 
 form{
-    padding: 16px 1px 0px 20px;
-    width: 0;
+    padding: 10% 0 0 40%;
+    
 
 }
 

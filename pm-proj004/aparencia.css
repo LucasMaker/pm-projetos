@@ -34,13 +34,13 @@ color: white;
 
 
 
-.p5{
+.pendente{
     background-color: #4a4a4a;
     background-image: url(caixa.png);
     background-position: 30px;
 }
 
-.p5:hover{
+.pendente:hover{
     background-color: #6e6e6e;
 }
 
