@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+body{
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 500;
+    -webkit-font-smoothing:antialiased;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+
+
+clogo .logo{
+    text-align: center;
+    padding: 53px 0px 53px 0;
+    width: 100%;
+}
+
+
+
+cbody .card{
+    float:left;
+    padding: 0px 20px 40px 0px;
+    
+    
+}
+
+cbody .cards{
+    width: 960px;
+    padding-left: 20px;
+    
+    }
+
+
+cbody h2{
+    width: 300px;
+    font-weight: 500;
+    
+}
+
+
+
