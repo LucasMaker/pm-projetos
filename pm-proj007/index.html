@@ -2,92 +2,96 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" contente="widht=device-width initial-scale=1">
     <title>projeto 007</title>
-<link rel="stylesheet" href="/normalize.css">
+
+
+<link rel="stylesheet"  href="../normalize.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-<link rel="stylesheet" href="aparencia.css">
+<link rel="stylesheet"  href="mobile.css">
+<link rel="stylesheet" media="(min-width:500px)" href="tablet.css">
 
 </head>
 
    <body>
    
     <div class="container">
+      
+       <section id="topo"> 
+       <header>
+          <div class="cabeçalho">
+              
+              <span><a href="#conheça">conheça</a></span>
+              <span><a href="#depoimentos">depoimentos</a></span>
+              <span><a href="#convite">convite</a></span>
+          </div>
+          
+       </header>
        
-       <section id="topo" >
-         
-         
-              <header>
-              
-              <h1>
-             <span class="notas">notas</span>
-             <span > <a href="" >conheça</a> </span>
-             <span > <a href="" >depoimentos</a> </span>
-              <span > <a href="" >convite</a> </span> 
-              </h1> 
-              
-              
-                   
-              </header>
-         
-           
-           <nav>
-               <ul>
-                   <li class="conheça">conheça titum</li>
-                   <li class="moda">A nova moda do momento.</li>
-                <li class="saiba"> <a href=""> Saiba mais </a> </li>
-               </ul>
-           </nav>
-           
+       <nav>
+              <ul>
+                  <li class="conheça">Conheça titum</li>
+                  <li class="moda">A nova moda do momento.</li>
+                  <li class="saiba"><a href="#conheça">Saiba mais</a></li>
+              </ul>
+          </nav>
+                 
+       
        </section>
        
-       <section id="conheça"> 
-             
-          
-           <nav class="imagem">
-           <ul>
-               <li class="afinal">Afinal, o que é o Titum?</li>
-               <li class="titum">Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.</li>
-            <li class="quero"> <a href=""> Quero Titum </a> </li>   
-        </ul>
-        </nav>
-     
-       
-       
-      
-             
-       
+       <section id=conheça>
+           
+           <div class="corpo">
+               
+               <nav>
+                   <ul>
+                       <li class="afinal">Afinal, o que é o Titum?</li>
+                       <li class="titum">Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.</li>
+                       <li class="quero"> <a href="#convite">Quero Titum</a> </li>
+                   </ul>
+               </nav>
+               
+               
+           </div>
+           
+           
+           
        </section>
        
        <section id="depoimentos">
            
-          <img src="section%203.png" alt="mulher">
+           <div class="corpo">
+               
+               <p>“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje”</p>
+               <p class="claudia">cláudia santos</p>
+               
+               
+           </div>
            
-            <div class="texto"> <p class="mensagem">“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje”. <p>
-            <p class="claudia"> Cláudia Santos</p> </div>       
-           
-              </section>
-              
-              <section id="convite">
-                  <div class="convite">
-                  <form action="">
-                      <input type="text" placeholder="Receba um convite no email informado aqui">
-                      
-                      
-                                          
-                  </form> </div>
-                  
-                  
-                  
-                  
-                  
-              </section>
-              
-                            
-                 <footer>
-                      <p>© 2016 Titum - Todos os direitos reservados.</p>
-                  </footer>   
+       </section>
+       
+    <section id="convite">
         
-    </div>
+        <div class="corpo">
+            
+            <form action="">
+                <input type="email" placeholder="Receba um convite no email informado aqui">
+            </form>
+            
+        </div>
+        
+        
+        
+    </section>
+    
+    <footer>
+        
+            <p>© 2016 Titum - Todos os direitos reservados.</p>
+            
+    </footer>
      
+     
+     
+     </div>
    </body>
 </html>

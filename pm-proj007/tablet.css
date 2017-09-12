@@ -1,0 +1,83 @@
+
+    #topo{
+        height: 600px;
+        background-size: 100% 600px;
+    }
+    #topo .cabeçalho a{
+        font-size: 17px;
+        padding: 0 3%
+    }
+    #topo .cabeçalho{
+    width: 310px;
+        padding-left: 160px;
+background-size: 100px;
+        background-position: 30px 10px;
+        
+
+}
+    #topo nav ul {
+        width: 48%;
+    }
+    #topo nav ul .conheça{
+        font-size: 25px;
+        
+    }
+    #topo nav ul .moda{
+        font-size: 19px;
+    }
+    #topo nav ul a{
+        font-size: 29px;
+    
+    }
+    
+    #conheça{
+        height: 500px;
+    }
+    #conheça nav{
+       margin: 0 auto;
+        padding-left: 240px;
+        padding-top: 80px;
+        height: 250px;
+        width: 240px;
+        background-size: 200px 240px;
+        background-position: 15px 70px;
+    }
+    #conheça nav .afinal{
+        font-size: 23px;
+    } 
+    #conheça nav .titum {font-size: 19px;}
+    #conheça nav .quero {font-size: 24px; padding: 8px 45px;}
+    
+    #depoimentos{
+        height: 400px;
+    }
+    #depoimentos .corpo{
+        background-size: 150px;
+       
+    }
+    #depoimentos .corpo p{
+        padding: 150px 0 0 0;
+        font-size: 17px;
+        max-width: 470px;
+        width: 470px;
+    }
+    #depoimentos .corpo .claudia{
+        padding: 6px 0 0 0;
+        font-size: 21px;
+    }
+    
+    
+    #convite{
+        height: 250px;
+    } 
+    #convite form{
+        padding-top: 27px
+    }
+    #convite .corpo form input{
+        padding: 25px 5px;
+        max-width: 600px;
+        width: 420px;
+        background-position: 370px center;
+        font-size: 18px
+    }
+
